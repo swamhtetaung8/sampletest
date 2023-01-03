@@ -1,0 +1,269 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.cdnfonts.com/css/campton');
+
+.sign-up_form {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.sign-up {
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 50px 100px;
+}
+
+.left-section {
+    background-color: #084B3E;
+    padding: 34px 54px;
+    height: 100%;
+}
+
+.left-section .image {
+    width: 171.48px;
+    height: 94.46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-section h3 {
+    font-family: 'Campton', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    color: #F9E2BA;
+}
+
+.right-section {
+    background-color: #fff;
+    padding: 55px 52px;
+    padding-right: 150px;
+}
+
+.right-section h3 {
+    font-family: 'Campton', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    /* or 124% */
+
+    letter-spacing: -0.5px;
+
+    /* Black */
+
+    color: #232323;
+}
+
+.right-section form {
+    margin-top: 77px;
+    margin-bottom: 134px;
+}
+
+.right-section form .form-container {
+    margin-bottom: 47px;
+}
+
+.right-section form .form-container:last-child {
+    margin-bottom: 50px;
+}
+
+.right-section form .form-container label {
+    font-family: 'Campton', sans-serif;
+
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.206977px;
+    display: block;
+    color: #343434;
+    margin-bottom: 24px;
+}
+
+.right-section form .form-container label span {
+    color: red;
+}
+
+.right-section form .form-container input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #343434;
+    display: block;
+    width: 100%;
+}
+
+.right-section button {
+    display: block;
+    width: 100%;
+    height: 76px;
+    text-align: center;
+    border: none;
+    background: #00C38B;
+    border-radius: 20px;
+    font-family: 'Campton', sans-serif;
+
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.right-section button:hover {
+    background: #3ee49f;
+}
+
+.right-section .footer p {
+    font-family: 'Campton', sans-serif;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    // letter-spacing: px;
+    color: #BDBDBD;
+}
+
+.right-section .footer a {
+    color: #BDBDBD;
+}
+
+.right-section .footer p:last-child a {
+    color: #19B07E;
+}
+
+@media screen and (max-width:1050px) {
+    .sign-up_form {
+        height: auto !important;
+    }
+
+    .sign-up {
+        margin: 40px;
+        border-radius: 35px;
+    }
+
+    .left-section h3 {
+        font-size: 33px;
+        line-height: 38px;
+        letter-spacing: -0.5px;
+    }
+
+    .left-section .image {
+        margin-bottom: 20px;
+        margin-inline: auto;
+    }
+
+    .left-section {
+        padding: 30px;
+    }
+
+    .right-section {
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    .right-section form .form-container label {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .right-section button {
+        height: 80px;
+
+        border-radius: 20px;
+
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 0px;
+
+        color: #FFFFFF;
+    }
+
+    .right-section .footer p {
+        font-size: 16px;
+        line-height: 18px;
+        // letter-spacing: px;
+        color: #BDBDBD;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .sign-up_form {
+        min-height: 100vh;
+    }
+
+
+    .sign-up {
+        margin: 30px;
+        border-radius: 25px;
+    }
+
+    .left-section h3 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0px;
+    }
+
+    .left-section .image {
+        margin-bottom: 10px;
+        margin-inline: auto;
+    }
+
+    .left-section {
+        padding: 20px;
+    }
+
+    .right-section {
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .right-section form .form-container {
+        margin-bottom: 30px;
+    }
+
+    .right-section form {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .right-section h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .right-section form .form-container label {
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    .right-section button {
+        height: 50px;
+
+        border-radius: 10px;
+
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+
+        color: #FFFFFF;
+    }
+
+    .right-section .footer p {
+        font-size: 13px;
+        line-height: 18px;
+        // letter-spacing: px;
+        color: #BDBDBD;
+    }
+}
